@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>log in</title>
+    <script src="jquery-3.4.1.js"></script>
+    <script>
+        function transfer1() {
+            var a=document.getElementById('second1');
+            a.placeholder='Tell me your name';
+            var b=document.getElementById('second2');
+            b.placeholder='Enter your password';
+        }
+        function reveal() {
+            var a=document.getElementById('second1');
+            var b=document.getElementById('second2');
+            if(a.value==kafka&&b.value==123456){
+                window.open('https://kafkaka.github.io/website6/web6/index1.html');
+            }
+        }
+
+
+
+    </script>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        body{
+            background: url("images/bg.jpg") ;
+        }
+        h1{
+            font-size: 50px;
+            color:white;
+        }
+        #first{
+            font-size:20px;
+            position: absolute;
+            right:300px;
+            top:400px;
+            width:500px;
+            height:200px;
+        }
+        #second1{
+            font-size:20px;
+            position: absolute;
+            right: 298px;
+            top: 611px;
+            width: 498px;
+        }
+
+        #second2{
+            font-size:20px;
+            position: absolute;
+            right: 298px;
+            top: 650px;
+            width: 498px;
+        }
+        #bot{
+            position:absolute;
+            top:500px;
+            right:100px;
+
+            width:100px;
+            height:30px;
+
+
+        }
+
+
+
+
+    </style>
+</head>
+
+<body>
+<h1>It's the access to my personal web</h1>
+<form>
+    <input id="first" type="button" value="We may find a way to get rid of this page, CLICK ME!" onclick="transfer1()" >
+    <input id="second1"type="text">
+    <input id="second2"type="password">
+    <input id="bot" type="button" value="(￣▽￣)／" onclick="reveal()">
+</form>
+
+</body>
+</html>

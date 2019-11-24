@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sy7-2</title>
+    <style>
+
+        body{
+            background: url("images/dlbg.jpg") no-repeat center;
+            padding:50px 0 0 860px;
+        }
+        form{
+            position: relative;
+            right:-150px;
+            width:248px;
+            height:300px;
+            border:1px solid black;
+            padding:30px 40px;
+            background-color: #e9e9e9;
+        }
+        input{
+            display:block;
+        }
+        [type="text"],[type="password"]{
+            width:250px;
+            height:38px;
+            border:1px solid grey;
+            margin-bottom: 30px;
+            font-size: 16px;
+            text-indent: 50px;
+
+        }
+        [type="text"]{
+             background: url("images/zhanghao.jpg") no-repeat 0 -1px ;
+         }
+        [type="password"]{
+            background: url("images/mima.jpg") no-repeat 0 -1px ;
+        }
+        [type="checkbox"]{
+            display:inline;
+            vertical-align: middle;
+        }
+        label{
+            font-size: 12px;
+        }
+        .reg{
+            text-align: center;
+            font-size: 12px;
+            margin-top:-18px;
+        }
+        .reg a{
+            text-decoration: none;
+            color:#999;
+        }
+        .reg a:hover{
+            color:black;
+            text-decoration: underline;
+        }
+        [type="submit"]{
+            width:255px;
+            height:44px;
+            margin:25px auto;
+            background: url("images/but.jpg");
+
+        }
+        .related{
+            font-size:12px;
+            width:255px;
+            vertical-align: baseline;
+        }
+        .related image{
+            margin-left: 30px;
+            display:inline-block;
+            width:30px;
+            height:30px;
+        }
+    </style>
+</head>
+<body>
+<form>
+    <input type="text" name="user" placeholder="用户名/邮箱地址/手机号">
+
+    <input type="password" name="password" placeholder="填写密码">
+
+    <input type="checkbox" name="account" value="1" id="account">
+
+    <label for = "account">记住账号</label>
+
+    <div class="reg">
+        <a href="#">欢迎注册</a>
+        <a href="#">忘记密码</a>
+    </div>
+    <input type="submit" name="submit"value="">
+
+    <div class="related">
+        合作网站账号登录:
+        <img src="images/qqlogin.png" >
+        <img src="images/taobao.png">
+        <img src="images/weixin.png">
+    </div>
+</form>
+
+</body>
+</html>
